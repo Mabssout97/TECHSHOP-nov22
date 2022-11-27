@@ -26,14 +26,11 @@ public class BaseClassTec  {
         driver.get("https://www.smarttechqa.com/");
         
         
-        
-        
-        UtilitiesTec.getExplicitWait( driver.findElement(By.xpath("//a[@href='/login']")), 5);
+        /* 
+       // login scenario
+      UtilitiesTec.getExplicitWait( driver.findElement(By.xpath("//a[@href='/login']")), 5);
         driver.findElement(By.xpath("//a[@href='/login']")).click();
-
 		//driver.findElement(By.id("email")).sendKeys("testuser@gmail.com");
-        
-        
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("testuser@email.com");
 		UtilitiesTec.getHighLighter(driver.findElement(By.xpath("//*[@id='email']")));
 		UtilitiesTec.takeScreenShot();
@@ -43,21 +40,20 @@ public class BaseClassTec  {
 		driver.findElement(By.xpath("//*[@class='btn btn-primary']")).click();
 		System.out.println(driver.getTitle()); 
 		//Thread.sleep(5000);
-		
-		
-		
 		//driver.quit(); 
+		
+		 
 		UtilitiesTec.getExplicitWait(driver.findElement(By.xpath("//a[@href='/cart']")), 5);
 		driver.findElement(By.xpath("//a[@href='/cart']")).click();
 		//driver.findElement(By.linkText("Go Back")).click(); //this will take me back to the home page from the cart page
-		driver.findElement(By.partialLinkText("Go")).click();
+		driver.findElement(By.partialLinkText("Go")).click();//same as line 48
 		
 		
 		driver.findElement(By.name("q")).sendKeys("iphone"); //Sends keys to the searchbox
 		//driver.findElement(By.cssSelector(".p-2 btn btn-outline-success")).click();
 		//Thread.sleep(5000);
 		UtilitiesTec.getExplicitWait(driver.findElement(By.xpath("//*[text()='Search']")), 5);
-		driver.findElement(By.xpath("//*[text()='Search']")).click();
+		
 		
 		driver.navigate().back(); //This takes to the previous page.
 		driver.navigate().refresh();//this refesh the page 
@@ -65,9 +61,9 @@ public class BaseClassTec  {
 		
 		driver.quit(); 
 		
-		
-	}
+		*/
 	
+	}
 	
 	
 	
