@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Techshop Automation" duration-ms="1032" started-at="2022-11-27T03:21:00Z" finished-at="2022-11-27T03:21:01Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default Test" duration-ms="1032" started-at="2022-11-27T03:21:00Z" finished-at="2022-11-27T03:21:01Z">
+      <class name="com.smarttechqa.runner.RunnerClassTec">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="setUpClass" is-config="true" duration-ms="429" started-at="2022-11-27T03:21:00Z" finished-at="2022-11-27T03:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c88b9fc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="runScenario" duration-ms="123" started-at="2022-11-27T03:21:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T03:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to search the products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="runScenario" duration-ms="30" started-at="2022-11-27T03:21:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T03:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to click on the latest products from the home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="runScenario" duration-ms="24" started-at="2022-11-27T03:21:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T03:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to click on the cart button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="runScenario" duration-ms="15" started-at="2022-11-27T03:21:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T03:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="runScenario" duration-ms="10" started-at="2022-11-27T03:21:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T03:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="runScenario" duration-ms="19" started-at="2022-11-27T03:21:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T03:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="runScenario" duration-ms="10" started-at="2022-11-27T03:21:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T03:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.smarttechqa.runner.RunnerClassTec@2118cddf]" name="tearDownClass" is-config="true" duration-ms="336" started-at="2022-11-27T03:21:01Z" finished-at="2022-11-27T03:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.smarttechqa.runner.RunnerClassTec -->
+    </test> <!-- Default Test -->
+  </suite> <!-- Techshop Automation -->
+</testng-results>

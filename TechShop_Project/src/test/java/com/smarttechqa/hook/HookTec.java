@@ -1,5 +1,7 @@
 package com.smarttechqa.hook;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import java.io.IOException;
 
 import com.smarttechqa.base.BaseClassTec;
@@ -13,13 +15,13 @@ public class HookTec extends BaseClassTec {
 	
 	
 		//Initialize starts the browser before every scenario
-		@Before
+		@BeforeMethod
 		public static void initialize() throws IOException {
 			BaseClassTec.setUp();	
 		}
 		
 		//tearDown will quit the browser after every scenario
-		@After
+		@AfterMethod
 		public static void tearDown() {
 			driver.quit();
 			
